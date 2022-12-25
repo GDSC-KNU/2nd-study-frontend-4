@@ -1,0 +1,63 @@
+/*
+
+gdsc knu fe team 4 
+nametag (class 로 5개 사용할것)
+nametag 내부 photo, name, email, sns.... 위치 지정
+before , next로 클릭하면 다음 nametag 나타나게.
+
+*/
+
+/*해상도 1920X1080*/
+.container{width:1920px; height:1080px; overflow:hidden; margin:0 auto;}
+
+/*상단*/
+.upper {
+
+    /*GDSC*/
+    position: absolute;
+    width: 415px;
+    height: 41px;
+    left: 39.06%;
+    top: 20%;
+
+    background: url(img/upper.png);
+}
+
+
+.nametag {
+
+    /*명함위치*/
+    position: absolute;
+    left: 31.45%;
+    right: 31.43%;
+    top: 31.57%;
+
+}
+
+.nametag img {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+/*하단 날짜 부분*/
+.date{
+
+    /* 2022.12.21. ~ 2023.01.25. */
+    position: absolute;
+    width: 432px;
+    height: 44px;
+    left: 39.06%;
+    top: 79.72%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #5E6368;
+
+}
