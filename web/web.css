@@ -7,8 +7,7 @@ before , next로 클릭하면 다음 nametag 나타나게.
 
 */
 
-/*해상도 1920X1080*/
-.container{width:1920px; height:1080px; overflow:hidden; margin:0 auto;}
+/*해상도 1920X1080 ->삭제. viewpoint로 맞춤.*/
 
 /*상단*/
 .upper {
@@ -17,10 +16,17 @@ before , next로 클릭하면 다음 nametag 나타나게.
     position: absolute;
     width: 415px;
     height: 41px;
-    left: 39.06%;
+    left: 38.06%;
     top: 20%;
 
-    background: url(img/upper.png);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 44px;
+
+    color: #5E6368;
 }
 
 
@@ -37,7 +43,7 @@ before , next로 클릭하면 다음 nametag 나타나게.
 .nametag img {
 
     background: #FFFFFF;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 
 }
@@ -49,13 +55,13 @@ before , next로 클릭하면 다음 nametag 나타나게.
     position: absolute;
     width: 432px;
     height: 44px;
-    left: 39.06%;
-    top: 79.72%;
+    left: 37.56%;
+    top: 78.72%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 44px;
 
     color: #5E6368;
