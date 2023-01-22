@@ -1,0 +1,73 @@
+﻿body{
+	font-family: "맑은 고딕", "돋움", "굴림";
+	background:url(bg.png) no-repeat left top fixed;
+	background-size:cover;
+}
+wrapper{
+	margin:30px auto;
+	width:750px;
+}
+section {
+	display:block;
+	margin:15px auto 0;
+}
+nav {
+	width:100%;
+	height:40px;
+	background-color:#222;
+}
+nav ul {
+	list-style:none;
+}
+nav ul li {
+	display:inline;
+	float:left;
+	margin:10px;
+}
+nav a {
+	padding:6px 40px 9px;
+	color:white;
+	text-decoration:none;
+	text-shadow:0 1px 1px black;
+}
+nav a:hover {
+	background-color:#ffd800;
+	color:black;
+	text-shadow:none;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+nav a.current {
+	background-color:white;
+	color: black;
+	text-shadow:none;
+	border-top-left:radius:5px;
+	border-top-right:radius:5px;
+}
+h2 {
+	margin-left:10px;
+	background:url(icon.png) no-repeat left top;
+	background-size:contain;
+	padding-left:50px;
+	padding-top:1px;
+	padding-bottom:10px;
+}
+article {
+	padding:5px 20px;
+	border-left:2px solid #222;
+	border-right:2px solid #222;
+	background-color:rgba(255, 255, 255, 0.9);
+}
+footer {
+	margin: 0px auto;
+	padding: 20px;
+	font-size:12px;
+	background-color:#666;
+	color:white;
+	border:2px solid #222;
+}
+header {
+	margin: 0px auto;
+	padding: 5px;
+	color:white;
+}
