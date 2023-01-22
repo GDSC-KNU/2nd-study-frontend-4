@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="coin-slider-styles.css" type="text/css">
+    <script src="jquery-1.9.1.js"></script>
+    <script src="coin-slider.js"></script>
+    <script>
+	$(document).ready(function(){
+		$("#coin-slider").coinslider();
+    	});
+    </script>
+    <style>
+        table {
+            margin:10px auto 30px;
+            width:720px;
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+        th, td {
+            padding:15px;
+            border:1px solid black;
+        }
+        th {
+            background-color:#ddd;
+        }
+	caption {
+	    margin: 15px;
+	    font-size: 18px;
+	}    
+	#coin-slider{
+		margin: 0 auto;
+	}
+	#notice{
+		width:565px;
+		margin:10px auto;
+	}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>내 블로그</h1>        
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="intro.html">시작</a></li>
+                <li><a href="hobby.html">취미</a></li>
+                <li><a href="plan.html" class="current">2023</a></li>
+            </ul>
+        </nav>
+        <article>
+        <h2>2023년 목표</h2>  
+	<div id="notice">
+		<section>
+			<div id="coin-slider">
+				<img src="photo1.jpg">
+				<img src="photo2.jpg">
+				<img src="photo3.jpg">
+			</div>
+		</section>
+	</div>
+        <table width="100%">
+        <caption>2023년 나의 목표</caption>
+            <tr>
+                <th>1</th>
+		<td>Solved Class 4 달성하기</td>				
+            </tr>
+            <tr>
+                <th>2</th>
+		<td>GDSC 수료하기...</td>				
+            </tr>
+	    <tr>
+                <th>3</th>
+		<td>밴드부에서 기타로 공연해보기</td>				
+            </tr>
+            <tr>
+                <th>4</th>
+		<td>헬스나 수영 도전해보기</td>				
+            </tr>
+            <tr>
+                <th>5</th>
+		<td>교내대회 입상 도전해보기</td>				
+            </tr>
+            <tr>
+                <th>6</th>
+		<td>인디밴드 공연가보기</td>				
+            </tr>			
+        </table>
+            </article>
+    </section>
+	<footer> 		       	
+		<p>경북대학교 이승운 <b>인스타:</b> s_wooooon_</p>
+        	<p><address>메일 : family5820@knu.ac.kr</address></p>
+	</footer>
+    </div>
+</body>
+</html>
