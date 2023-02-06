@@ -1,0 +1,287 @@
+body{
+  background-color: #b7c8eb;
+}
+
+.frame{
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*navigator*/
+
+.navigator{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li{
+  display: inline;
+  align-self: center;
+  margin:0;
+  margin-left: 15px;
+}
+
+ul{
+  margin:0;
+}
+
+.site-name{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  color: #a7b3ce;
+}
+
+.nav-menu{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  transition: 0.3s;
+}
+
+/*dashboard*/
+
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.korean-comment{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.sample{
+  background-color: rgb(181, 182, 255);
+  -webkit-text-stroke: 1px black;
+}
+
+.sample:hover{
+  background-color: transparent;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  transition: none;
+}
+
+.highlight{
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover{
+  background-color: rgb(181, 182, 255);
+  color: black;
+  transition: none;
+}
+
+.english-comment{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  font-style: italic;
+
+  letter-spacing: -0.3px;
+}
+
+/*recent works*/
+
+.recent-menu{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #a7b3ce;
+  
+  text-align: right;
+  margin-top: 100px;
+}
+
+.recent-works{
+  display: flex;
+  flex-direction: column;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+.thumbnail{
+  width: 600px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  border-radius: 5px;
+}
+
+.article-info{
+  margin: 0px 20px;
+}
+
+.article-name{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.article-comment{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#name2{
+  text-align: right;
+  position: relative;
+  left: 0px;
+  margin-bottom: 0px;
+}
+
+/*footer*/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.contact{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.links>a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.footer>p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  margin-top: 5px;
+}
+
+
+/* INFO Section*/
+
+/*profile-section*/
+
+.profile-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 100px 100px;
+}
+
+
+#profile-picture{
+  width: 400px;
+  margin-right: 60px;
+  border-radius: 5px;
+}
+
+.introduction>h2{
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.introduction>p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+  margin-bottom: 40px;
+}
+
+#capability{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+
+  line-height: 30px;
+}
+
+/*value section*/
+
+.value-menu{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin: 30px 100px;
+}
+
+.value-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 100px 150px;
+  margin-top: 20px;
+}
+
+.value{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+
+}
+
+.value-icon{
+  width: 250px;
+  height: 250px;
+
+  border-radius: 250px;
+  padding: 0px;
+}
+
+.value-intro{
+  margin-left: 30px;
+}
+
+.value-name{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  font-size: 20px;
+}
+
+.value-exp{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+  margin: 0px;
+}
